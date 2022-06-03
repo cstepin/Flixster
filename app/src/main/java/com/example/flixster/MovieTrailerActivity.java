@@ -76,7 +76,7 @@ public class MovieTrailerActivity extends YouTubeBaseActivity {
             }
         });
 
-        // temporary test video id -- 
+        // temporary test video id --
      //  final String videoId = results;
 
         // resolve the player view from the layout
