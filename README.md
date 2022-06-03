@@ -17,7 +17,7 @@ The following **required** functionality is completed:
 
 The following **stretch** features are implemented:
 
-* [ ] Improved the user interface by experimenting with styling and coloring.
+* [+] Improved the user interface by experimenting with styling and coloring.
 * [+] Apply rounded corners for the poster or background images using [Glide transformations](https://guides.codepath.org/android/Displaying-Images-with-the-Glide-Library#transformations)
 * [+] Apply the popular [View Binding annotation library](http://guides.codepath.org/android/Reducing-View-Boilerplate-with-ViewBinding) to reduce boilerplate code.
 * [ ] Allow video trailers to be played in full-screen using the YouTubePlayerView from the details screen.
@@ -32,7 +32,9 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![App Demo Link](screenshots/Walkthrough.gif)
+
+<img src='Walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [Kap](https://getkap.co/).
 
@@ -42,6 +44,8 @@ Describe any challenges encountered while building the app.
 
 There were some challenges understanding how the recycler view worked and how to load placeholder images. However, by talking with TAs and using StackOverflow I perservered and figured out the issues.
 
+There were also some challenges figuring out the Youtube API - I don't think I figured it out fully, but I plan to continue trying to figure it out over the weekend.
+
 ## Open-source libraries used
 
 - [Android Async HTTP](https://github.com/loopj/android-async-http) - Simple asynchronous HTTP requests with JSON parsing
@@ -49,7 +53,7 @@ There were some challenges understanding how the recycler view worked and how to
 
 ## License
 
-    Copyright [2022] [Author]
+    Copyright [2022] [Christina Stepin]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
