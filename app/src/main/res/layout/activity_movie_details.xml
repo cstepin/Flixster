@@ -20,10 +20,10 @@
 
     <TextView
         android:id="@+id/tvOverview"
-        android:layout_width="333dp"
-        android:layout_height="394dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="60dp"
+        android:layout_width="328dp"
+        android:layout_height="265dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
         android:textAlignment="viewStart"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,4 +41,14 @@
         android:stepSize="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginBottom="216dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:src="@tools:sample/avatars" />
 </androidx.constraintlayout.widget.ConstraintLayout>

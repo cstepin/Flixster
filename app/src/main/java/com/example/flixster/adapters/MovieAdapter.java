@@ -28,7 +28,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
 
     Context context;
     List<Movie> movies;
-  //  MovieAdapterBinding binding;
+   // MovieAdapterBinding binding;
 
     /*
     FancyFragmentBinding binding;

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Flixster</string>
+    <string name="YOUTUBE_API_KEY">AIzaSyDffOB5qBgO2-_Qv9ODamT_A_9_kD2_pLQ</string>
 </resources>
