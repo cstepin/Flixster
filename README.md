@@ -34,7 +34,7 @@ Here's a walkthrough of implemented user stories:
 
 ![App Demo Link](screenshots/Walkthrough.gif)
 
-<img src='Walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://submissions.us-east-1.linodeobjects.com/metau_android/rYT2Wlk6.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [Kap](https://getkap.co/).
 
