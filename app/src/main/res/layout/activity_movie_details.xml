@@ -20,8 +20,8 @@
 
     <TextView
         android:id="@+id/tvOverview"
-        android:layout_width="328dp"
-        android:layout_height="265dp"
+        android:layout_width="336dp"
+        android:layout_height="429dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="16dp"
         android:textAlignment="viewStart"
@@ -46,8 +46,8 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="112dp"
-        android:layout_marginBottom="216dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="32dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:src="@tools:sample/avatars" />
