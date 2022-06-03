@@ -28,6 +28,25 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
 
     Context context;
     List<Movie> movies;
+  //  MovieAdapterBinding binding;
+
+    /*
+    FancyFragmentBinding binding;
+
+  @Override
+  public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+
+    // fancy_fragment.xml -> FancyFragmentBinding
+    binding = FancyFragmentBinding.inflate(getLayoutInflater(), container, false);
+
+    // layout of fragment is stored in a special property called root
+    View view = binding.getRoot();
+
+    // TODO Use fields...
+    // binding.
+    return view;
+  }
+     */
 
     //Constructor for MovieAdapter (Has a context and a list of movies)
     public MovieAdapter(Context context, List<Movie> movies) {

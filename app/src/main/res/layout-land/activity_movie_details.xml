@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MovieDetailsActivity">
+    tools:context=".MovieDetailsActivity"
+    android:background="#a2ddea" >
 
     <TextView
         android:id="@+id/tvTitle"
@@ -15,7 +16,7 @@
         android:textSize="34sp"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="16dp"
-        tools:text="Example Title Title" />
+        tools:text="Example Title Title"/>
 
     <TextView
         android:id="@+id/tvOverview"
@@ -27,7 +28,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/tvTitle"
         tools:layout_editor_absoluteY="1dp"
-        tools:text="Example Overview Overview" />
+        tools:text="Example Overview Overview"/>
 
     <RatingBar
         android:id="@+id/rbVoteAverage"
@@ -39,5 +40,7 @@
         android:numStars="5"
         android:stepSize="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
